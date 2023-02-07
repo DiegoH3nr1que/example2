@@ -49,6 +49,12 @@ main{
 #Início h1{
     align-items: center;
 }
+#Sobre{
+
+}
+#Linguagens{
+    
+}
 #Contato form{
     display: flex;
     flex-direction: column;
