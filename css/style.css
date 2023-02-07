@@ -39,6 +39,11 @@ main{
     flex-direction: column;
     gap: 10px;
 }
+#Contato div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
 footer{
     display: flex;
     flex-direction: row;
