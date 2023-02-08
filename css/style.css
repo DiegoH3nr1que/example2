@@ -26,7 +26,6 @@ header ul a{
 header li{
     transition: 0.3s;
 }
-
 header li:hover{
     font-size: 20px;
 }
@@ -91,9 +90,7 @@ main{
 }
 #Sobre:hover{
     scale: 110%;
-    box-shadow: 10px 10px 25px rgb(150,50,150);
-    
-    
+    box-shadow: 10px 10px 25px rgb(150,50,150);  
 }
 #Linguagens{
     opacity: 0%;
@@ -138,7 +135,6 @@ main{
     display: flex;
     flex-direction: column;
     line-height: 300%;
-    
 }
 #checkbox{
     width:20px;
@@ -190,10 +186,8 @@ label{
 #button:hover{
    scale: 105%;
    background-color: rgb(27, 202, 0);
-   box-shadow: 0px 0px 30px rgb(0, 0, 0)
-   
+   box-shadow: 0px 0px 30px rgb(0, 0, 0)  
 }
-
 footer{
     display: flex;
     flex-direction: row;
@@ -201,5 +195,6 @@ footer{
     align-items: center;
     background-color: rgb(40,0,70);
     padding: 10px; 
-    box-shadow:0px 2px 15px rgb(150,50,150) ;
+    box-shadow:0px 2px 15px rgb(150,50,150) ;]
+    font-size: larger;
 }
