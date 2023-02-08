@@ -11,6 +11,7 @@
     <header>
         <nav>
             <ul>
+                <img src="./img/Htmlicon.png">
                 <li><a href="#Início">Início</a></li>
                 <li><a href="#Sobre">Sobre</a></li>
                 <li><a href="#Linguagens">Linguagens</a></li>
@@ -26,15 +27,21 @@
         </section>
         <section id="Sobre">
             <h2>Sobre o HTML5 semântico</h2>
-            <p>O HTML5 semântico é uma evoluçao de linguagem HTML que permite aos desenvolvedores criar estruturas mais siginificativas e ricas em conteúdo para seus sites e aplicativos.</p>
+            <div class="Sobreimg">
+                <p>O HTML5 semântico é uma evoluçao de linguagem HTML que permite aos desenvolvedores criar estruturas mais siginificativas e ricas em conteúdo para seus sites e aplicativos.</p>
+                <img src="./img/html5.png">
+            </div>
         </section>
         <section id="Linguagens">
             <h2>Outras Linguagens associadas</h2>
-            <ul>
-                <il>HiperText Markup Language - HTML</il>
-                <il>Cascading Style Sheet - CSS</il>
-                <il>JavaScript - JS</il>
-            </ul>
+            <div class="linguagensimg">
+                <ul>
+                    <li>HiperText Markup Language - HTML</li>
+                    <li>Cascading Style Sheet - CSS</li>
+                    <li>JavaScript - JS</li>
+                </ul>
+                <img src="./img/Htmlicon.png">
+            </div>
         </section>
         <section id="Contato">
             <h2>Fale conosco</h2>
@@ -49,7 +56,9 @@
                     <input type="checkbox" name="checkbox" id="checkbox">
                     <label for="checkbox"> Desejo receber informações sobre HTML5 por E-mail</label>
                 </div>
-                <input id="button" type="submit" value="Enviar">
+                <div class="botão">
+                    <input id="button" type="submit" value="Enviar">
+                </div>
             </form>
         </section>
     </main>
